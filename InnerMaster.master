@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="InnerMaster.master.cs" Inherits="OuterMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<script type='text/javascript' src="Scripts/google.js"></script>
+<script type='text/javascript' src="Scripts/modernizr.custom.13303.js"></script>
+<script type='text/javascript' src="Scripts/jquery.shockwave.js"></script> 
+<script type='text/javascript' src="Scripts/jquery.shockwave.effects.js"></script>
+    <script type="text/javascript" language="javascript">
+        function DisableBackButton() {
+            window.history.forward()
+        }
+        DisableBackButton();
+        window.onload = DisableBackButton;
+        window.onpageshow = function (evt) { if (evt.persisted) DisableBackButton() }
+        window.onunload = function () { void (0) }
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>GATE Exam Guru [IT/CS]</title>
+    <meta name="keywords" content="hello" />
+    <meta name="description" content="world" />
+    <link href="_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <!--<div id="google_translate_element"></div>
+        <script>
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en'
+                }, 'google_translate_element');
+            }
+
+        </script>
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+        <div id="templatemo_container">
+            <div id="templatemo_header">
+                <div id="site_title">
+                    <a href="Home page1.aspx">GATE Exam Guru [IT/CS]</a>
+                </div>
+            </div>
+            <!-- end of header -->
+
+            <div id="templatemo_menu">
+                <span></span>
+                <ul>
+                   
+                    <li><a href="ChangePassword.aspx"><b>Change Password</b></a></li>
+                    <li><a href="Home page1.aspx"><b>LogOut</b></a></li>
+
+                </ul>
+
+            </div>
+            <!-- end of menu -->
+   <div>
+       <p>
+           <br />
+       </p>
+   </div>
+            <div id="templatemo_content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <p>
+                        <br />
+                    </p>
+
+                </asp:ContentPlaceHolder>
+                <br />
+            </div>
+            <div id="Div1">
+                <img alt="" src="images/templatemo_footer_bg.jpg" />
+
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

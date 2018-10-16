@@ -1,0 +1,93 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>finaldesign_admin</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>finaldesign_admin</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="_style.css">_style.css</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AboutUs.aspx">AboutUs.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AboutUs.aspx.cs">AboutUs.aspx.cs</ProjectItem>
+      <Folder Name="Admin" TargetFolderName="Admin">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Admin_Answer_master.aspx">Admin_Answer_master.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Admin_Answer_master.aspx.cs">Admin_Answer_master.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Admin_Question_master.aspx">Admin_Question_master.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Admin_Question_master.aspx.cs">Admin_Question_master.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Admin_show_Result.aspx">Admin_show_Result.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Admin_show_Result.aspx.cs">Admin_show_Result.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AdminHomePage.aspx">AdminHomePage.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AdminHomePage.aspx.cs">AdminHomePage.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AdminMaster.master">AdminMaster.master</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="AdminMaster.master.cs">AdminMaster.master.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ManageBranch.aspx">ManageBranch.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ManageBranch.aspx.cs">ManageBranch.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ManageTest.aspx">ManageTest.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ManageTest.aspx.cs">ManageTest.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ManageUser.aspx">ManageUser.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ManageUser.aspx.cs">ManageUser.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Result in Grade.aspx">Result in Grade.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Result in Grade.aspx.cs">Result in Grade.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="timer.aspx">timer.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="timer.aspx.cs">timer.aspx.cs</ProjectItem>
+      </Folder>
+      <Folder Name="App_Code" TargetFolderName="App_Code">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Timer.cs">Timer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="App_Data" TargetFolderName="App_Data">
+        <ProjectItem ReplaceParameters="false" TargetFileName="OnilneTest.mdf">OnilneTest.mdf</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="OnilneTest_log.LDF">OnilneTest_log.LDF</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="QuestionAnswer_Master.txt">QuestionAnswer_Master.txt</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ForgotPassword.aspx">ForgotPassword.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ForgotPassword.aspx.cs">ForgotPassword.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Forum.aspx">Forum.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Forum.aspx.cs">Forum.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Home page.aspx">Home page.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Home page.aspx.cs">Home page.aspx.cs</ProjectItem>
+      <Folder Name="images" TargetFolderName="images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="templatemo_banner_bg.jpg">templatemo_banner_bg.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="templatemo_content_bg - Copy.jpg">templatemo_content_bg - Copy.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="templatemo_content_bg.jpg">templatemo_content_bg.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="templatemo_footer_bg.jpg">templatemo_footer_bg.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="templatemo_list_icon.jpg">templatemo_list_icon.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="templatemo_main_bg.jpg">templatemo_main_bg.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="templatemo_menu_bg.jpg">templatemo_menu_bg.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="templatemo_menu_bg_left.jpg">templatemo_menu_bg_left.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="templatemo_menu_hover_bg.jpg">templatemo_menu_hover_bg.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="templatemo_menu_hover_bg_left.jpg">templatemo_menu_hover_bg_left.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="templatemo_newsletter_bg.jpg">templatemo_newsletter_bg.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Winnie the Pooh 01.ico">Winnie the Pooh 01.ico</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InnerMaster.master">InnerMaster.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InnerMaster.master.cs">InnerMaster.master.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OnlineTest.aspx">OnlineTest.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OnlineTest.aspx.cs">OnlineTest.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OuterMaster.master">OuterMaster.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OuterMaster.master.cs">OuterMaster.master.cs</ProjectItem>
+      <Folder Name="Scripts" TargetFolderName="Scripts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1-vsdoc.js">jquery-1.4.1-vsdoc.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.js">jquery-1.4.1.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.min.js">jquery-1.4.1.min.js</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SelectTest.aspx">SelectTest.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SelectTest.aspx.cs">SelectTest.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StudyMaterial.aspx">StudyMaterial.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="StudyMaterial.aspx.cs">StudyMaterial.aspx.cs</ProjectItem>
+      <Folder Name="Styles" TargetFolderName="Styles">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Site.css">Site.css</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Test_Result.aspx">Test_Result.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Test_Result.aspx.cs">Test_Result.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
